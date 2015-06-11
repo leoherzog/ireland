@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Our Family Trip to Ireland in July, 2016">
+        <meta name="author" content="Agent L Productions | agentl.productions">
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+        <title>Our Family Trip to Ireland in July, 2016</title>
+
+        <link href="/bootstrap.min.css" rel="stylesheet">
+        <!-- uncomment this and comment above bootstrap for fun - link href="//code.divshot.com/geo-bootstrap/swatch/bootstrap.min.css" rel="stylesheet"-->
+		<link href='http://fonts.googleapis.com/css?family=Rock+Salt|Pacifico' rel='stylesheet' type='text/css'>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="/bootstrap.min.js"></script>
+        <script src="/tinytimer.min.js"></script>
+
+        <style>
+            body {
+                padding-top: 60px;
+            }
+        </style>
+
+        <!--[if lt IE 9]>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+        <!-- Site loaded three times faster with the below Facebook SDK. Wow. -->
+        <!--div id="fb-root"></div>
+        <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=560190464026286&version=v2.2";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script-->
+
+        <script>
+            function timer(){
+            var d = new Date('July 9, 2016 12:00');
+            $('#timer').tinyTimer({ to: d, format: '- %-d {day,|days,} %h {hour|hours} to go!' });
+            }
+        </script>
+
+    </head>
+
+    <body onload="timer()">
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" style="font-family: 'Rock Salt', cursive;">Ireland!</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right" style="font-family: 'Pacifico', cursive; text-size: 24;">
+                        <li><a>July 9-17, 2016 <span id="timer"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <section id="calendar" data-type="background">
+            <div class="container" id="calendar">
+				<div class="page-header">
+                    <h1>Schedule</h1>
+                </div>
+				<div class="embed-responsive embed-responsive-16by9">
+					<p><iframe class="embed-responsive-item" src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=veqml5h5r0clnhkppju3pep190%40group.calendar.google.com&amp;color=%23125A12&amp;ctz=Europe%2FDublin&dates=20160710%2F20160716" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe></p>
+				</div>
+            </div>
+        </section>
+
+        <section id="map" data-type="background">
+            <div class="container" id="map">
+                <div class="page-header">
+                    <h1>Map</h1>
+                </div>
+				<div class="embed-responsive embed-responsive-16by9">
+					<p><iframe class="embed-responsive-item" src="https://www.google.com/maps/d/u/0/embed?mid=zKaTiX8dT7Pc.kvbzK6AGhcEA" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe></p>
+				</div>
+            </div>
+        </section>
+		
+		<section id="faq" data-type="background">
+            <div class="faq" id="map">
+                <div class="page-header">
+                    <h1>Is Ireland in the UK?</h1>
+                </div>
+				<div class="embed-responsive embed-responsive-16by9">
+					<p><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rNu8XDBSn10?rel=0" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe></p>
+				</div>
+            </div>
+        </section>
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-18984545-8', 'auto');
+            ga('require', 'displayfeatures');
+            ga('send', 'pageview');
+        </script>
+
+    </body>
+
+</html>
+
